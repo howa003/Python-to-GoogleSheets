@@ -1,5 +1,7 @@
 # Python-to-GoogleSheets
 
+This repository contains a simple Python script that connects to the Google Sheets API using OAuth2 authentication. It allows you to write data to a specified Google Sheet.
+
 ## Initial setup
 
 ### Google setup
@@ -31,4 +33,4 @@ pip install google-api-python-client google-auth google-auth-httplib2 google-aut
 
 ## Usage
 1) Follow the initial setup steps.
-2Change the `SPREADSHEET_ID` and `RANGE_NAME` variables in the `main.py` file to your spreadsheet ID and desired range.
+2) Change the `SPREADSHEET_ID` and `RANGE_NAME` variables in the `main.py` file to your spreadsheet ID and desired range.
